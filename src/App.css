@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+/* src/App.css */
+
+/* Default body styling for light or dark mode */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: white;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+}
+
+/* Main App container */
+.App {
+  padding: 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Tabs section */
+.tabs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 10px;
+}
+
+.tab-link {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 0 15px;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tab-link:hover {
+  background-color: #ddd;
+  transform: translateY(-3px);
+}
+
+.tab-link.active {
+  background-color: #4CAF50;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* HomePage */
+.home-container {
+  margin-top: 30px;
+  font-size: 1.25rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.home-container p {
+  font-style: italic;
+}
+
+/* Song Page */
+.song-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.song-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.song-container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.back-to-home {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.back-to-home:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+    margin-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .tab-link {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .song-container {
+    padding: 15px;
+  }
+
+  audio {
+    width: 100%;
   }
 }
