@@ -5,7 +5,7 @@ const songs = [
         tabName: "Song 1", 
         title: "Araw-Gabi",
         artist: "Regine Velasquez",
-        file: "/audio/Araw_Gabi.mp3",   // looks inside public/audio/
+        file: process.env.PUBLIC_URL + "/audio/Araw_Gabi.mp3",   // looks inside public/audio/
         lyricsOriginal:
     `'Di biro ang sumulat ng awitin para sa'yo
         Para akong isang sira-ulong hilo't lito
