@@ -55,7 +55,7 @@ const songs = [
         tabName: "Song 2", 
         title: "Palagi",
         artist: "TJ Monterde", 
-        file: "/audio/Palagi.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Palagi.mp3",
         lyricsOriginal: 
         `Hindi man araw-araw na nakangiti
         Ilang beses na rin tayong humihindi
@@ -148,7 +148,7 @@ const songs = [
         tabName: "Song 3", 
         title: "Kahit Maputi Na Ang Buhok Ko",
         artist: "Rey Valera", 
-        file: "/audio/Kahit_Maputi_Na_Ang_Buhok_Ko.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Kahit_Maputi_Na_Ang_Buhok_Ko.mp3",
         lyricsOriginal: 
         `         Kung tayo ay matanda na
         Sana'y 'di tayo magbago
@@ -222,7 +222,7 @@ const songs = [
         tabName: "Song 4", 
         title: "Pasilyo",
         artist: "", 
-        file: "/audio/Pasilyo.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Pasilyo.mp3",
         lyricsOriginal: "Lyrics for song four...",
         lyricsTranslated: '',
         message: ''
@@ -232,7 +232,7 @@ const songs = [
         tabName: "Song 5", 
         title: "Song Five",
         artist: "", 
-        file: "/audio/Ikaw_Lamang.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Ikaw_Lamang.mp3",
         lyricsOriginal: "Lyrics for song five...",
         lyricsTranslated: '',
         message: ''
@@ -242,7 +242,7 @@ const songs = [
         tabName: "Song 6", 
         title: "Song Six",
         artist: "", 
-        file: "/audio/Pusong_Ligaw.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Pusong_Ligaw.mp3",
         lyricsOriginal: "Lyrics for song six...",
         lyricsTranslated: '',
         message: ''
@@ -252,7 +252,7 @@ const songs = [
         tabName: "Song 7", 
         title: "Song Seven",
         artist: "", 
-        file: "/audio/Harana.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Harana.mp3",
         lyricsOriginal: "Lyrics for song seven...",
         lyricsTranslated: '',
         message: ''
@@ -262,7 +262,7 @@ const songs = [
         tabName: "Song 8", 
         title: "Song Eight",
         artist: "", 
-        file: "/audio/Balisong.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Balisong.mp3",
         lyricsOriginal: "Lyrics for song eight...",
         lyricsTranslated: '',
         message: ''
@@ -272,7 +272,7 @@ const songs = [
         tabName: "Song 9", 
         title: "Song Nine",
         artist: "", 
-        file: "/audio/Ikaw_Pa_Rin.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Ikaw_Pa_Rin.mp3",
         lyricsOriginal: "Lyrics for song nine...",
         lyricsTranslated: '',
         message: ''
@@ -282,7 +282,7 @@ const songs = [
         tabName: "Song 10", 
         title: "Song Ten",
         artist: "", 
-        file: "/audio/Ikaw_Lang.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Ikaw_Lang.mp3",
         lyricsOriginal: "Lyrics for song ten...",
         lyricsTranslated: '',
         message: ''
@@ -292,7 +292,7 @@ const songs = [
         tabName: "Song 11", 
         title: "Song Eleven",
         artist: "", 
-        file: "/audio/Sa_Ngalan_Ng_Pag_Ibig.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Sa_Ngalan_Ng_Pag_Ibig.mp3",
         lyricsOriginal: "Lyrics for song eleven...",
         lyricsTranslated: '',
         message: ''
@@ -302,7 +302,7 @@ const songs = [
         tabName: "Song 12", 
         title: "Song Twelve",
         artist: "", 
-        file: "/audio/Pangako.mp3",
+        file: process.env.PUBLIC_URL + "/audio/Pangako.mp3",
         lyricsOriginal: "Lyrics for song twelve...",
         lyricsTranslated: '',
         message: ''
