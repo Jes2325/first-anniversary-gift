@@ -7,7 +7,7 @@ const songs = [
         artist: "Regine Velasquez",
         file: process.env.PUBLIC_URL + "/audio/Araw_Gabi.mp3",   // looks inside public/audio/
         lyricsOriginal:
-    `'  Di biro ang sumulat ng awitin para sa'yo
+    `   'Di biro ang sumulat ng awitin para sa'yo
         Para akong isang sira-ulong hilo't lito
         Sa akin pang minanang piano
         Tiklado'y pilit nilaro
@@ -57,7 +57,7 @@ const songs = [
         Araw-gabi tayong dal'wa
         Ah, ah`,
         lyricsTranslated: 
-        `It's not a joke to write a song for you. 
+    `   It's not a joke to write a song for you. 
         I'm like a crazy person, dizzy and confused.
         With my inherited piano
         I was forced to play
