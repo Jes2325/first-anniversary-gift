@@ -48,7 +48,9 @@ const songs = [
         Araw-gabi tayong dal'wa
         Ah, ah`,
         lyricsTranslated: 'dfasjflkasjflkajslkfjalkjflkasjlfkjalskdjflksdjfljslk',
-        message: 'Beautiful song, right?'
+        message: `Beautiful song, right? I've loved this song since I was young. Araw meaning day and gabi meaning night. Day and night, you are on my mind. I dream of you wherever I go.
+                  And my love, how true that is. You have consumed my every thought, awake or asleep. You invade my dreams, and I wouldn't have it any other way. So, what better way to start
+                  to start this playlist then with this song.`
     },
     {
         id: 2,
