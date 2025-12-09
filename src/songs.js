@@ -364,7 +364,6 @@ const songs = [
         You and only you (you and only you)
         You and only you (you and only you)
         
-        
         My palms are soaking wet, I can feel the spark
         (you and only you) My words are filled with incomparable
         (you and only you) I carry it with mе every day

@@ -14,7 +14,8 @@ function App() {
         <br /><br />
 
         Remember that Spotify playlist I told you not to look at or touch? Well, this was the reason why. There are 12 songs in that playlist which are now here on this website.
-        Each song is for each month that we've been together. The catch? Each song is in Tagalog. So, each song has the original lyrics as well as the English translation. Then, 
+        Each song is for each month that we've been together. The catch? Each song is in Tagalog. So, each song has the original lyrics as well as the English translation (most of these 
+        have the official English translations. Others, I had to translate myself, so they might be a little off). Then, 
         at the bottom of the lyrics is why I chose this song for us. I hope you like your gift, baby. I love you, you and only you. Happy one year, my love❤️!
       </h3>
     </div>
