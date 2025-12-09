@@ -7,7 +7,7 @@ const songs = [
         artist: "Regine Velasquez",
         file: process.env.PUBLIC_URL + "/audio/Araw_Gabi.mp3",   // looks inside public/audio/
         lyricsOriginal:
-    `'Di biro ang sumulat ng awitin para sa'yo
+    `'  Di biro ang sumulat ng awitin para sa'yo
         Para akong isang sira-ulong hilo't lito
         Sa akin pang minanang piano
         Tiklado'y pilit nilaro
@@ -37,6 +37,15 @@ const songs = [
         Ang natapos kong likhain
         Ito ang tunay na damdamin
         Tanggapin at dinggin
+
+        Araw-gabi
+        Nasa isip ka, napapanagip ka
+        Kahit sa'n magpunta
+        Araw-gabi
+        Nalalasing sa tuwa
+        Kapag kapiling ka
+        Araw-gabi tayong dal'wa
+        Araw-gabi tayong dal'wa
         
         Araw-gabi
         Nasa isip ka, napapanagip ka
@@ -47,7 +56,51 @@ const songs = [
         Araw-gabi tayong dal'wa
         Araw-gabi tayong dal'wa
         Ah, ah`,
-        lyricsTranslated: 'dfasjflkasjflkajslkfjalkjflkasjlfkjalskdjflksdjfljslk',
+        lyricsTranslated: 
+        `It's not a joke to write a song for you. 
+        I'm like a crazy person, dizzy and confused.
+        With my inherited piano
+        I was forced to play
+        In hopes a tone 
+        Would suddenly pop up
+        
+        What song will I make about you? 
+        It's no joke to make lysrics for this tune. 
+        Even with 10 dictionaries
+        Nothing seems to match
+        Just know it won't change
+        What I feel for you
+        
+        Day-night
+        You're on my mind, you're in my dreams
+        No matter where I go
+        Day-night
+        I'm drunk with joy
+        When I feel you
+        Day-night just you and I
+        
+        I joke 
+        About what it is I'm trying to say
+        You have to know
+        What's inside my chest
+        I've created
+        Hundred of songs
+        This is what I truly feel
+        Accept it and listen
+        
+        Day-night
+        You're on my mind, you're in my dreams
+        No matter where I go
+        Day-night
+        I'm drunk with joy
+        When I feel you
+        
+        Day-night
+        You're on my mind, you're in my dreams
+        No matter where I go
+        Day-night
+        I'm drunk with joy
+        When I feel you`,
         message: `Beautiful song, right? I've loved this song since I was young. Araw meaning day and gabi meaning night. Day and night, you are on my mind. I dream of you wherever I go.
                   And my love, how true that is. You have consumed my every thought, awake or asleep. You invade my dreams, and I wouldn't have it any other way. So, what better way to start
                   to start this playlist then with this song.`
