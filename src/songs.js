@@ -196,7 +196,7 @@ const songs = [
         I want you to know that
         I'm yours, always`,
         message: `Palagi. As you can see in the song, it means always. And that's why I chose this song. Because, I am yours, always my love. Yours and only yours.
-                  In the end, no matter what, I am yours. No matter the arguments, no matter the what happens, I am yours, my love. Yours and always yours.`
+                  In the end, no matter what, I am yours. No matter the arguments, no matter the what happens, I am yours, my love. Yours and always yours. Yours and only yours. Te amo, mi amor`
     },
     {
         id: 3,
@@ -267,25 +267,115 @@ const songs = [
         That my love is always yours
         Even when my hair turns gray`,
         message: `I've translated this song to you before. The only thing about the song though? When he says I hope we don't change, I disagree.
-                  If we change, I want it to be because we are growing together and experiencing lige together. Anyways, this song. It's a beautiful one, right?
+                  If we change, I want it to be because we are growing together and experiencing life together. I wantr it to be because we
+                  are changing for the better. Anyways, this song. It's a beautiful one, right?
                   It's about growing old together and loving one another as we grow old together.
                   I want that with you. I want to grow old with you and spend the rest of my life with you. I want to see where life takes us and what it has in store
-                  for us. Baby, I want it all with you. And this, this gife, this anniversary, this is just the start of us.`
+                  for us. Baby, I want it all with you. And this, this gift, this anniversary, this is just the start of us. Happy one year amor!`
     },
     {
         id: 4,
         tabName: "Song 4", 
         title: "Pasilyo",
-        artist: "", 
+        artist: "Sun Kissed Lola", 
         file: process.env.PUBLIC_URL + "/audio/Pasilyo.mp3",
-        lyricsOriginal: "Lyrics for song four...",
-        lyricsTranslated: '',
-        message: ''
+        lyricsOriginal: 
+    `   Palad ay basang-basa
+        Ang dagitab ay damang-dama
+        Sa 'king kalamnang punong-puno
+        Ng pananabik at ng kaba
+        Lalim sa 'king bawat paghinga
+        Nakatitig lamang sa iyo
+
+        Naglakad ka nang dahan-dahan
+        Sa pasilyo tungo sa altar ng simbahan
+        Hahagkan na't 'di ka bibitawan
+        Wala na 'kong mahihiling pa
+
+        Ikaw at ikaw
+        Ikaw at ikaw
+        Ikaw at ikaw
+        Ikaw at ikaw
+
+        'Di maikukumpara
+        Araw-araw kong dala-dala
+        Paboritong panalangin ko'y
+        Makasama ka sa pagtanda
+        Ang hiling sa Diyos na may gawa
+        Apelyido ko'y maging iyo
+
+        Naglakad ka nang dahan-dahan
+        Sa pasilyo tungo sa 'kin
+        At hinawakan mo ako't aking 'di napigilang
+        Maluha nang mayakap na
+
+        Ikaw at ikaw
+        Ikaw at ikaw
+        Ikaw at ikaw
+        Ikaw at ikaw
+
+        Ikaw at ikaw (ikaw at ikaw, ikaw at ikaw)
+        Ikaw at ikaw (ikaw at ikaw, ikaw at ikaw)
+        Ikaw at ikaw (ikaw at ikaw, ikaw at ikaw)
+        Ikaw at ikaw (ikaw at ikaw, ikaw at ikaw)
+
+        Palad ay basang-basa, ang dagitab ay damang-dama
+        (Ikaw at ikaw) sa 'king kalamnang punong-puno
+        (Ikaw at ikaw) 'di maikukumpara, araw-araw kong dala-dala
+        (Ikaw at ikaw) paboritong panalangin ko'y ikaw`,
+        lyricsTranslated: 
+    `   My palms are soaking wet
+        I can feel the spark
+        My words are filled with
+        Desire and fear
+        In every breath I take
+        I just look at you
+        
+        You walk slowly
+        Along the aisle towards the church altar
+        I hug you tightly and won't let go
+        I have nothing else to ask for
+        
+        You and only you
+        You and only you
+        You and only you
+        You and only you
+        
+        Incomparable
+        I carry it with me every day
+        My favorite prayer is
+        To grow old with you
+        The prayer to God that's made true
+        My surname will be yours too
+        
+        You walk slowly
+        Along the aisle towards me and I hold you
+        I couldn't help but cry
+        As I hugged you tightly
+        
+        You and only you
+        You and only you
+        You and only you
+        You and only you
+
+        You and only you (you and only you)
+        You and only you (you and only you)
+        You and only you (you and only you)
+        You and only you (you and only you)
+        You and only you (you and only you)
+        
+        
+        My palms are soaking wet, I can feel the spark
+        (you and only you) My words are filled with incomparable
+        (you and only you) I carry it with mе every day
+        (you and only you) My favorite prayеr is you`,
+        message: `I think you can see why I chose this song. You and only you, my love. In everything that I do, in every breath that I take, I only want you. It's only you. 
+                  And my love, I can't wait till it's you and I. I can't wait till we're walking down the aisle, for the day you are, legally, my wife.`
     },
     {
         id: 5,
         tabName: "Song 5", 
-        title: "Song Five",
+        title: "Ikaw Lamang",
         artist: "", 
         file: process.env.PUBLIC_URL + "/audio/Ikaw_Lamang.mp3",
         lyricsOriginal: "Lyrics for song five...",
