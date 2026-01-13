@@ -267,7 +267,7 @@ const songs = [
         That my love is always yours
         Even when my hair turns gray`,
         message: `I've translated this song to you before. The only thing about the song though? When he says I hope we don't change, I disagree.
-                  If we change, I want it to be because we are growing together and experiencing life together. I wantr it to be because we
+                  If we change, I want it to be because we are growing together and experiencing life together. I want it to be because we
                   are changing for the better. Anyways, this song. It's a beautiful one, right?
                   It's about growing old together and loving one another as we grow old together.
                   I want that with you. I want to grow old with you and spend the rest of my life with you. I want to see where life takes us and what it has in store
@@ -675,7 +675,7 @@ const songs = [
                   in case you didn't know, originated in the Philippines. This is the only full English songs that I included. The title, as you can see,
                   is in Tagalog. But, funnily enough, the lyrics are English. And these lyrics are fireeee, don't you think? 
                   I remember listening to this song so much in the Fall and Winter of 2024 but didn't know why. 
-                  Then, I met bebe in the Winter of '24, and I was even more confused. This song is both a crash-out song but also one of myu favorite songs to listen to.
+                  Then, I met bebe in the Winter of '24, and I was even more confused. This song is both a crash-out song but also one of my favorite songs to listen to.
                   But, I think it's obvious why this song. Line for line, word for word, this song encompasses how I feel for you, without a doubt. `
     },
     {
